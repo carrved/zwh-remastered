@@ -5,4 +5,5 @@ z4's web (formerly known as zwebhub) is a website hub with a bunch of proxies, g
 
 ## credits
 SvelteKit from SvelteJS (https://svelte.dev)
+
 Fluent Svelte from Tropix126 (https://fluent-svelte.vercel.app)
