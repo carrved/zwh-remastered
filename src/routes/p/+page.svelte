@@ -3,11 +3,6 @@
     import * as Fluent from 'fluent-svelte';
 </script>
 
-<Fluent.Button on:click={history.back()}>
-	⬅ back
-</Fluent.Button>
-<p> </p>
-
 <Fluent.TextBlock variant="subtitle" ref="disclaimers">
     NOTE: Some of these don't work with different softwares. (ext. GoGuardian, Relay, IBoss, etc.)
 </Fluent.TextBlock>
