@@ -4,7 +4,7 @@
 
     const open = () => {
         let win = window.open();
-        let url = "https://duckduckgo.com/";
+        let url = "https://zwh.pages.dev/p/";
         var frame = win.document.createElement('iframe');
         frame.style.width = '100%';
         frame.style.height = '100%';

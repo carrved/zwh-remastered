@@ -47,15 +47,11 @@
 	General Mathematics
 	<svelte:fragment slot="content">
 		<Fluent.Button>
-			<a href="https://ibossucks.org" target="_blank">ibossucks.org</a>
+			<a href="https://ibossucks.org" target="_blank">ibossucks.org *</a>
 		</Fluent.Button>
 		<p> </p>
 		<Fluent.Button>
 			<a href="https://ezchemistry.ml" target="_blank">ezchemistry.ml (user:floppasproxy, pass:Sussybaka) </a>
-		</Fluent.Button>
-		<p> </p>
-		<Fluent.Button>
-			<a href="https://ibossucks.org" target="_blank">ibossucks.org</a>
 		</Fluent.Button>
 	</svelte:fragment>
 </Fluent.Expander>
