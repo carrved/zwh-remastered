@@ -1,6 +1,26 @@
 <script>
 	// TODO || import Proxies from 'Proxies.svelte'
     import * as Fluent from 'fluent-svelte';
+
+	var password = prompt("do");
+	if (password != 'goodmorningusa') {
+		document.body.innerHTML = '';
+		document.body.innerHTML = 'why are you try to snoop. idot!!!!!!!!!';
+	} else {
+		alert('ok you are good :thumbsup:');
+	}
+
+	const open = (site) => {
+        let win = window.open();
+        let url = site;
+        var frame 	= win.document.createElement('iframe');
+        frame.style.width = '100%';
+        frame.style.height = '100%';
+        frame.style.border = 'none';
+        frame.src = url;
+        win.document.body.appendChild(frame);
+    }
+
 </script>
 
 <Fluent.TextBlock variant="subtitle" ref="disclaimers">
@@ -21,8 +41,8 @@
 <Fluent.Expander>
     Nebula
     <svelte:fragment slot="content">
-        <Fluent.Button>
-			<a href="https://school-district.cloud" target="_blank">school-district.cloud</a>
+        <Fluent.Button on:click={open("https://school-district.cloud")}>
+			lpacehoderle
 		</Fluent.Button>
 		<p> </p>
 		<Fluent.Button>
