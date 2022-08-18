@@ -1,3 +1,5 @@
+<!---
+
 <script>
 	// TODO || import Proxies from 'Proxies.svelte'
     import * as Fluent from 'fluent-svelte';
@@ -24,10 +26,6 @@
 <hr />
 <p> </p>
 
-<!----
-	NEBULA	
---->
-
 <Fluent.Expander>
     Nebula
     <svelte:fragment slot="content">
@@ -49,10 +47,6 @@
     </svelte:fragment>
 </Fluent.Expander>
 
-<!----
-	GM	
---->
-
 <Fluent.Expander>
 	General Mathematics
 	<svelte:fragment slot="content">
@@ -71,3 +65,5 @@
 		color: red;
 	}
 </style>
+
+-->
