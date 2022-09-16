@@ -1,5 +1,7 @@
-# PROJECT IN MAINTENANCE MODE
-zwh is in maintenance mode right now! please wait for an update on this repo before complaining to me.
+# the state of this project
+i wont go into detail, just don't really want to work on this anymore
+
+i may revive it but theres a small chance of that happening
 
 
 
